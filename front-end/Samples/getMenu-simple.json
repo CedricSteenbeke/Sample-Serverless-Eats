@@ -1,0 +1,19 @@
+{
+	"restaurant":{
+		"name": "Casa Calvo",
+		"Cuisine": "Latin",
+		"openHours":[{"Day": "Saturday", "open":"4pm", "close":"11pm"},{"Day": "Sunday", "open":"4pm", "close":"10pm"}]
+	},"menu":[{
+			"name": "Mains",
+			"description":"Epic meals that hit the spot just right",
+			"items":[{
+					"Name":"Gallo Pinto",
+					"Desciption":"Rice, beans, eggs: Mas tico que el gallo pinto!",
+					"price": 10.00
+				},{
+					"Name":"Arroz con Pollo",
+					"Desciption":"Chicken, fried rice, spices. Is a dinner without Arroz con pollo realy a dinner?",
+					"price": 15.00
+				}]
+	}]
+}

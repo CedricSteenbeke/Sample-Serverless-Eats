@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "json-server --watch serverlessEats.json --port 3000"
+    },
+    "dependencies": {
+        "json-server": "^0.16.3"
+    }
+}

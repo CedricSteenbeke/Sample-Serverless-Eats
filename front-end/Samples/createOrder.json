@@ -1,0 +1,20 @@
+{
+    "restaurant":"Casa Calvo",
+    "orderValue": 25.00,
+    "items":[
+        {
+            "Name":"Gallo Pinto",
+            "price": 10.00,
+            "amount":1
+        },{
+            "Name":"Arroz con Pollo",
+            "price": 15.00,
+            "amount":1
+        }
+    ],
+    "customer":{
+        "email":"foodlover@allthenomz.com",
+        "mobile":"12322233",
+        "instructions":"Please hurry, i'm hungry"
+    }
+}

@@ -1,0 +1,107 @@
+{
+	"restaurants": [
+	{
+		"id": 1,
+		"name": "Casa Calvo",
+		"Cuisine": "Latin"
+	},
+	{
+		"id": 2,
+		"name": "Casa Mau",
+		"Cuisine": "Mexican"
+	},
+	{
+		"id": 3,
+		"name": "Casa Cedric",
+		"Cuisine": "Costa Rican"		
+	}
+	],
+	"products": [
+		{
+			"id":1,
+			"name":"Ribs",
+			"description":"Ribs",
+			"price": 15.00,
+			"type": "Main",
+			"restId": 1
+		},
+		{
+			"id":2,
+			"name":"Strawberry Cheesecake",
+			"description":"",
+			"price": 8.00,
+			"type": "Dessert",
+			"restId": 1
+		},
+		{
+			"id":3,
+			"name":"Bronto Burger",
+			"description":"Hamburger",
+			"price": 10.00,
+			"type": "Main",
+			"restId": 2
+		},
+		{
+			"id":4,
+			"name":"Hercheys Pie",
+			"description":"Hercheys Pie",
+			"price": 5.00,
+			"type": "Dessert",
+			"restId": 2
+		},
+		{
+			"id":5,
+			"name":"Rice with chicken",
+			"description":"Rice with chicken",
+			"price": 12.00,
+			"type": "Main",
+			"restId": 3
+		},
+		{
+			"id":6,
+			"name":"Empanada de Chiverre",
+			"description":"Empanada de Chiverre",
+			"price": 5.00,
+			"type": "Dessert",
+			"restId": 3
+		}
+	],
+	"schedules": [
+		{
+			"restId": 1,
+			"openHours":[
+				{"Day": "Tuesday", "open":"6pm", "close":"11pm"},
+				{"Day": "Wednesday", "open":"6pm", "close":"11pm"},
+				{"Day": "Thursday", "open":"6pm", "close":"11pm"},
+				{"Day": "Friday", "open":"4pm", "close":"11pm"},
+				{"Day": "Saturday", "open":"4pm", "close":"11pm"},
+				{"Day": "Sunday", "open":"4pm", "close":"10pm"}
+
+			]
+		},
+		{
+			"restId": 2,
+			"openHours":[
+				{"Day": "Tuesday", "open":"4:00pm", "close":"10:00pm"},
+				{"Day": "Wednesday", "open":"4:00pm", "close":"10:00pm"},
+				{"Day": "Thursday", "open":"4:00pm", "close":"10:00pm"},
+				{"Day": "Friday", "open":"4:00pm", "close":"10:00pm"},
+				{"Day": "Saturday", "open":"4:00pm", "close":"9:00pm"},
+				{"Day": "Sunday", "open":"4:00pm", "close":"9:00pm"}
+
+			]
+		},
+		{
+			"restId": 3,
+			"openHours":[
+				{"Day": "Tuesday", "open":"5:00pm", "close":"11:00pm"},
+				{"Day": "Wednesday", "open":"5:00pm", "close":"11:00pm"},
+				{"Day": "Thursday", "open":"5:00pm", "close":"11:00pm"},
+				{"Day": "Friday", "open":"3:00pm", "close":"8:00pm"},
+				{"Day": "Saturday", "open":"3:00pm", "close":"8p:00m"},
+				{"Day": "Sunday", "open":"3:00pm", "close":"8:00pm"}
+
+			]
+		}
+	]
+}
